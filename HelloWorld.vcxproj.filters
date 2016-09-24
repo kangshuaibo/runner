@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LittleRunner">
+      <UniqueIdentifier>{8382a6d1-239c-48ff-be56-ff78fdec02c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LittleRunner\实体">
+      <UniqueIdentifier>{b623219f-4555-431e-95d7-79491195d916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LittleRunner\实体\主角">
+      <UniqueIdentifier>{aabfc6a4-b963-4b60-af95-4fdc29ef8f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LittleRunner\实体\场景">
+      <UniqueIdentifier>{e2409a3c-ed5b-42d3-97f2-54982b84b956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LittleRunner\实体\场景\关卡场景">
+      <UniqueIdentifier>{a3f9e668-b07e-494b-8e96-5970d69052bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>src\LittleRunner\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>src\LittleRunner\实体\主角</Filter>
+    </ClCompile>
+    <ClCompile Include="TollgateScene.cpp">
+      <Filter>src\LittleRunner\实体\场景\关卡场景</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>src\LittleRunner\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>src\LittleRunner\实体\主角</Filter>
+    </ClInclude>
+    <ClInclude Include="TollgateScene.h">
+      <Filter>src\LittleRunner\实体\场景\关卡场景</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
