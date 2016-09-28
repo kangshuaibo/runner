@@ -10,10 +10,14 @@ class Player:public Entity
 public:
 	Player();
 	~Player();
+
 	CREATE_FUNC(Player);
-	virtual bool inti();
- 
+	 virtual bool init();
+public:
+	void  jump();
+	private:
+		bool m_isJumping;
 };
 
 
-#endif _Player_H_
+#endif

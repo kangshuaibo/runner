@@ -39,11 +39,11 @@
     <ClCompile Include="Entity.cpp">
       <Filter>src\LittleRunner\实体</Filter>
     </ClCompile>
-    <ClCompile Include="player.cpp">
-      <Filter>src\LittleRunner\实体\主角</Filter>
-    </ClCompile>
     <ClCompile Include="TollgateScene.cpp">
       <Filter>src\LittleRunner\实体\场景\关卡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>src\LittleRunner\实体\主角</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -59,16 +59,35 @@
     <ClInclude Include="Entity.h">
       <Filter>src\LittleRunner\实体</Filter>
     </ClInclude>
-    <ClInclude Include="player.h">
-      <Filter>src\LittleRunner\实体\主角</Filter>
-    </ClInclude>
     <ClInclude Include="TollgateScene.h">
       <Filter>src\LittleRunner\实体\场景\关卡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>src\LittleRunner\实体\主角</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="game.rc">
       <Filter>resource</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\tollgateBG.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\hp.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\LittleRunnerUi0.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\LittleRunnerUi_1.ExportJson">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\LittleRunnerUi0.plist">
+      <Filter>resource</Filter>
+    </None>
   </ItemGroup>
 </Project>

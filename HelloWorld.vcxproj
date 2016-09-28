@@ -148,7 +148,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="player.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="TollgateScene.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -156,7 +156,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="main.h" />
-    <ClInclude Include="player.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="TollgateScene.h" />
   </ItemGroup>
   <ItemGroup>
@@ -170,9 +170,24 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ProjectReference Include="..\cocos2d\external\Box2D\proj.win32\libbox2d.vcxproj">
       <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\cocos2d\external\bullet\proj.win32\libbullet.vcxproj">
+      <Project>{012dff48-a13f-4f52-b07b-f8b9d21ce95b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\external\recast\proj.win32\librecast.vcxproj">
+      <Project>{41e34993-647e-4282-8384-4ab1ae31a452}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\hp.png" />
+    <Image Include="..\Resources\LittleRunnerUi0.png" />
+    <Image Include="..\Resources\tollgateBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\LittleRunnerUi0.plist" />
+    <None Include="..\Resources\LittleRunnerUi_1.ExportJson" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
