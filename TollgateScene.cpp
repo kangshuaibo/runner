@@ -27,7 +27,7 @@ bool TollgateScene::init() {
 	}
 	Size visibleSize = Director::getInstance()->getVisibleSize();
 
-	/*´´½¨*/
+	/*Â´Â´Â½Â¨222*/
 	m_player = Player::create();
 	m_player->bindSprite(Sprite::create("hp.png"));
 	m_player->setPosition(Point(200, visibleSize.height / 4));
