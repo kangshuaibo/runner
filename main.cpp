@@ -3,7 +3,7 @@
 #include "cocos2d.h"
 
 USING_NS_CC;
-
+//yun
 int APIENTRY _tWinMain(HINSTANCE hInstance,
                        HINSTANCE hPrevInstance,
                        LPTSTR    lpCmdLine,
